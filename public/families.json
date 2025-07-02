@@ -1,0 +1,16 @@
+{
+  "families": [
+    {
+      "familyname": "adminnn",
+      "password": "admin123"
+    },
+    {
+      "familyname": "ivanovv",
+      "password": "qwerty"
+    },
+    {
+      "familyname": "jon",
+      "password": "john123"
+    }
+  ]
+}
