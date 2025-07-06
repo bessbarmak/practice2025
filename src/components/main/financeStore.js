@@ -17,7 +17,7 @@ export const addTransaction = createEvent()
 // })
 
 // Сторы
-export const $balance = createStore(5000)
+export const $balance = createStore(0)
   .on(addDeposit, (state, payload) => {
     if (typeof payload === 'number') {
       return state + payload

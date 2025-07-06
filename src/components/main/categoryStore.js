@@ -7,9 +7,7 @@ export const addCategoryIncome = createEvent()
 
 // === Стор категорий ===
 export const $categories = createStore([
-  { id: 1, name: 'Продукты', amount: 15000, type: 'expense' },
-  { id: 2, name: 'Транспорт', amount: 5000, type: 'expense' },
-  { id: 3, name: 'Развлечения', amount: 3000, type: 'expense' }
+  
 ])
   .on(addCategoryExpense, (state, payload) => {
     const { category, amount } = payload
