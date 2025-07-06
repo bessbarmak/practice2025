@@ -113,7 +113,7 @@ export default function LoginWindow() {
             label="Имя пользователя"
             name="login"
             rules={[
-              { required: true, message: 'Введите семью' },
+              { required: true, message: 'Введите логин' },
               { min: 4, message: 'Минимум 4 символа' },
               {
                 validator: (_, value) => {
